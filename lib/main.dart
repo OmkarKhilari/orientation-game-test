@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'screens/game_start.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(OrientationGame());
 }
 
-class MyApp extends StatelessWidget {
+class OrientationGame extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
